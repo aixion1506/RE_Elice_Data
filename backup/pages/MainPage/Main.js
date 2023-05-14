@@ -6,15 +6,15 @@ import {
   BannerContainer2,
   BannerContainer3,
   GotoGathering,
-} from "./main-styled";
-import YearChart from "./YearChart";
-import HourChart from "./HourChart";
-import { SectionsContainer, Section } from "react-fullpage";
-import { Link } from "react-router-dom";
-import { ROUTE } from "../../routes/route";
+} from './main-styled';
+import YearChart from './YearChart';
+import HourChart from './HourChart';
+import { SectionsContainer, Section } from 'react-fullpage';
+import { Link } from 'react-router-dom';
+import { ROUTE } from '../../routes/route';
 
 let options = {
-  anchors: ["1", "2", "3"],
+  anchors: ['1', '2', '3'],
 };
 
 const Main = () => {

@@ -1,5 +1,8 @@
-import { useState, useEffect } from "react";
-import { fetchMyGatheringList, fetchGatheringList } from "../networks/gather";
+import { useState, useEffect } from 'react';
+import {
+  fetchMyGatheringList,
+  fetchGatheringList,
+} from '../../src/networks/gather';
 
 export const useMyGatheringList = () => {
   const [myGatheringList, setMyGatheringList] = useState([]);
